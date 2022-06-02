@@ -8,7 +8,7 @@ require $rootDirectory.'/vendor/autoload.php';
 use Novuso\Common\Adapter\Auth\Hmac\HmacRequestService;
 
 // $url = 'http://httpbin.org/get';
-$url = 'http://172.17.0.1:8123/v1/admin/example';
+$url = 'http://172.17.0.1:8123/v1/admin/test_get';
 $request = new \GuzzleHttp\Psr7\Request('GET', $url);
 $public = "PubKey";
 $private = bin2hex("Shhhhhhhhhh!");
